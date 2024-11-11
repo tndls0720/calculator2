@@ -22,6 +22,8 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(to right, #feffff, #80898b, #b4c6cd);
 }
 
 .display {
@@ -34,6 +36,10 @@ html, body {
     justify-content: end;
     align-items: center;
     text-align: right;
+    border-radius: 20px;
+    background-color: aliceblue;
+    background: linear-gradient(to right, #b7c0c4, #c7d5d9, #d0d8db);
+    font-size: 40px;
 }
 
 .buttons {
@@ -44,6 +50,7 @@ html, body {
     border: 1px solid black;
     margin: 10px;
     flex-wrap: wrap;
+    border-radius: 10px;
     }
 
 .title-button{
@@ -58,19 +65,34 @@ html, body {
 }
     
 .minimize{
-    background-color: orange
+    background-color: #3e6a7d
 }
     .maximize{
-    background-color: green;
+    background-color: #6ba6c0
 }
     .close{
-    background-color: red;
+    background-color: #2c5364 
 }
 
 .button {
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    border-radius: 20%;
+    color: white;
+    background: linear-gradient(to right, #021d28, #c7d5d9, #2c5364);
+    border-color: linear-gradient(to right, #021d28, #c7d5d9, #2c5364);
+}
 
+.button.operator {
+    background: linear-gradient(to right, #0f2027, #2d90b1, #2c5364);
+    border-color: linear-gradient(to right, #0f2027, #2d90b1, #2c5364);
+    border-style: groove;
+}
+.button.function {
+    background: linear-gradient(to right, #0f2027, #2d90b1, #2c5364);
+    border-color: linear-gradient(to right, #0f2027, #2d90b1, #2c5364);
+    border-style: groove;
 }
 .zero {
     width: 120px;
